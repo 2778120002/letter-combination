@@ -14,14 +14,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.List;
 
 /**
- * Description
- *
- * @title: NumberLetterCombinationTest
- * @Author: shili.huang
+ * @author shili.huang
+ * @date 2020/12/29
  */
 @SpringBootTest(classes = LetterCombinationApp.class)
 @RunWith(SpringRunner.class)
-public class LetterEnumCombinationTest {
+public class LetterCombinationTest {
 
     @Autowired
     private LetterCombinationFactory factory;
